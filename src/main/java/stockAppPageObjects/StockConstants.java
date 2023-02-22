@@ -23,5 +23,7 @@ public class StockConstants {
 	public static String Homepage_TopMovers ="Top Movers";
 	public static String Homepage_MyAccount ="My Account";
 	public static String Homepage_Transactions ="Transactions";
+	
+	public static String BuySell_Num = "2";
 
 }
