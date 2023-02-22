@@ -5,21 +5,15 @@
     <listener class-name="listeners.AnnotationsTransformer"/>
     <listener class-name="listeners.TestListener"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Stockapp Test(failed)">
     <classes>
-      <class name="generalStore.ECommerceTest_02">
+      <class name="stockAppTests.Stockapp_WatchlistTest">
         <methods>
-          <include name="sumOfcartProducts"/>
+          <include name="stock_Watchlist_PreSetup"/>
+          <include name="stockapp_tc_03"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- generalStore.ECommerceTest_02 -->
-      <class name="generalStore.ECommerceTest_01">
-        <methods>
-          <include name="fillFormNegativeTest"/>
-          <include name="preSetup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- generalStore.ECommerceTest_01 -->
+      </class> <!-- stockAppTests.Stockapp_WatchlistTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Stockapp Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

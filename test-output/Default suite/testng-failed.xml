@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="excelConfigTest.ExcelTest">
+      <class name="stockAppTests.Stockapp_WatchlistTest">
         <methods>
-          <include name="form"/>
+          <include name="stock_Watchlist_PreSetup"/>
+          <include name="stockapp_tc_03"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- excelConfigTest.ExcelTest -->
+      </class> <!-- stockAppTests.Stockapp_WatchlistTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

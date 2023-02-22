@@ -12,7 +12,7 @@
 						filePattern="${basePath}/${ctx:threadName}-%d{yyyy-MM-dd}.log">						     
 						<PatternLayout
 							pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
-						<SizeBasedTriggeringPolicy size="50KB" />					         
+						<SizeBasedTriggeringPolicy size="500KB" />					         
 					</RollingFile>
 				</Route>
 			</Routes>
@@ -22,7 +22,7 @@
 				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />			   
 		</Console>		 
 	</Appenders>
-	 	<Loggers>
+	<Loggers>
 		<Root level="trace">			     
 			<AppenderRef ref="MyRoutingAppender" />			   
 		</Root>		 

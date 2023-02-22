@@ -76,6 +76,11 @@ public class ExcelDataRead {
 			return colNo;
 	}
 	
+	public int getLastRowNum(String sheetName) {
+		sh=wb.getSheet(sheetName);
+		return sh.getLastRowNum();
+	}
+	
 	
 	public String getData(String sheetName,String element, String colName) {
 		int rowNo=getRowNumber(sheetName, element);

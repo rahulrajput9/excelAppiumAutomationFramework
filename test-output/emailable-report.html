@@ -8,58 +8,11 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">115,504</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">60,651</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">generalStore.ECommerceTest_01</td><td><a href="#m0">fillFormNegativeTest</a></td><td rowspan="1">1676265578337</td><td rowspan="1">8093</td></tr><tr class="failedodd"><td rowspan="1">generalStore.ECommerceTest_02</td><td><a href="#m1">sumOfcartProducts</a></td><td rowspan="1">1676265623102</td><td rowspan="1">36543</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">excelConfigTest.ExcelTest</td><td><a href="#m2">form</a></td><td rowspan="6">1676265546678</td><td rowspan="6">3</td></tr><tr class="passedeven"><td><a href="#m3">form</a></td></tr><tr class="passedeven"><td><a href="#m4">form</a></td></tr><tr class="passedeven"><td><a href="#m5">form</a></td></tr><tr class="passedeven"><td><a href="#m6">form</a></td></tr><tr class="passedeven"><td><a href="#m7">form</a></td></tr><tr class="passedeven"><td><a href="#m8">tc_01</a></td><td rowspan="1">1676265547051</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m9">tc_03</a></td><td rowspan="1">1676265547124</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m10">testData</a></td><td rowspan="1">1676265547190</td><td rowspan="1">23</td></tr><tr class="passedodd"><td rowspan="1">generalStore.ECommerceTest_01</td><td><a href="#m11">fillFormPositiveTest</a></td><td rowspan="1">1676265600827</td><td rowspan="1">21130</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">stockAppTests.Stockapp_WatchlistTest</td><td><a href="#m0">stockapp_tc_03</a></td><td rowspan="1">1677046280844</td><td rowspan="1">35387</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">generalStore.ECommerceTest_01#fillFormNegativeTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [enter your name] but found [Please enter your name]
-	at generalStore.ECommerceTest_01.fillFormNegativeTest(ECommerceTest_01.java:50)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">generalStore.ECommerceTest_02#sumOfcartProducts</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({AppiumBy.id: com.androidsample.generalstore:id/totalAmountLbl})
-	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:125)
-	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
-	at org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4.getText(&lt;generated&gt;)
-	at generalStorePageObjects.CartPage.getcartPrice(CartPage.java:64)
-	at generalStore.ECommerceTest_02.sumOfcartProducts(ECommerceTest_02.java:36)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3b30eec5 (tried for 1 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:98)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:118)
-	... 32 more
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({AppiumBy.id: com.androidsample.generalstore:id/totalAmountLbl})
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
-Driver info: driver.version: RemoteWebDriver
-	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$0(AppiumElementLocator.java:119)
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:171)
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:164)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 34 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">excelConfigTest.ExcelTest#form</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Rajput , country=Argentina, gender=Female}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">excelConfigTest.ExcelTest#form</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Planit rajput, country=Australia, gender=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">excelConfigTest.ExcelTest#form</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=rahul rajput, country=Australia, gender=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">excelConfigTest.ExcelTest#form</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Amazing , country=Argentina, gender=Female}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">excelConfigTest.ExcelTest#form</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Allt , country=Argentina, gender=Female}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">excelConfigTest.ExcelTest#form</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{name=Test, country=Australia, gender=Male}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">excelConfigTest.ExcelTest#tc_01</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">excelConfigTest.ExcelTest#tc_03</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">excelConfigTest.ExcelTest#testData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">generalStore.ECommerceTest_01#fillFormPositiveTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">stockAppTests.Stockapp_WatchlistTest#stockapp_tc_03</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

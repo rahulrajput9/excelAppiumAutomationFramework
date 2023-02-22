@@ -2,16 +2,16 @@
 <testng-results ignored="2" total="14" passed="11" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-08T10:49:25 IST" name="Suite" finished-at="2023-02-08T10:50:56 IST" duration-ms="91041">
+  <suite started-at="2023-02-13T11:57:16 IST" name="Suite" finished-at="2023-02-13T11:59:03 IST" duration-ms="107308">
     <groups>
     </groups>
-    <test started-at="2023-02-08T10:49:25 IST" name="Test" finished-at="2023-02-08T10:50:56 IST" duration-ms="91041">
+    <test started-at="2023-02-13T11:57:16 IST" name="Test" finished-at="2023-02-13T11:59:03 IST" duration-ms="107308">
       <class name="generalStore.ECommerceTest_01">
-        <test-method is-config="true" signature="preSetup()[pri:0, instance:generalStore.ECommerceTest_01@31611954]" started-at="2023-02-08T10:49:26 IST" name="preSetup" finished-at="2023-02-08T10:49:47 IST" duration-ms="21484" status="PASS">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:generalStore.ECommerceTest_01@12968227]" started-at="2023-02-13T11:57:17 IST" name="preSetup" finished-at="2023-02-13T11:57:53 IST" duration-ms="35474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method signature="fillFormNegativeTest()[pri:0, instance:generalStore.ECommerceTest_01@31611954]" started-at="2023-02-08T10:49:47 IST" name="fillFormNegativeTest" finished-at="2023-02-08T10:49:54 IST" duration-ms="6479" status="FAIL">
+        <test-method signature="fillFormNegativeTest()[pri:0, instance:generalStore.ECommerceTest_01@12968227]" started-at="2023-02-13T11:57:53 IST" name="fillFormNegativeTest" finished-at="2023-02-13T11:57:59 IST" duration-ms="6825" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [enter your name] but found [Please enter your name]]]>
@@ -63,31 +63,31 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillFormNegativeTest -->
-        <test-method is-config="true" signature="preSetup()[pri:0, instance:generalStore.ECommerceTest_01@31611954]" started-at="2023-02-08T10:49:54 IST" name="preSetup" finished-at="2023-02-08T10:50:04 IST" duration-ms="9480" status="PASS">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:generalStore.ECommerceTest_01@12968227]" started-at="2023-02-13T11:58:00 IST" name="preSetup" finished-at="2023-02-13T11:58:10 IST" duration-ms="9894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method signature="fillFormPositiveTest()[pri:0, instance:generalStore.ECommerceTest_01@31611954]" started-at="2023-02-08T10:50:04 IST" name="fillFormPositiveTest" finished-at="2023-02-08T10:50:20 IST" duration-ms="16236" status="PASS">
+        <test-method signature="fillFormPositiveTest()[pri:0, instance:generalStore.ECommerceTest_01@12968227]" started-at="2023-02-13T11:58:10 IST" name="fillFormPositiveTest" finished-at="2023-02-13T11:58:27 IST" duration-ms="17387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillFormPositiveTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:generalStore.ECommerceTest_01@31611954]" started-at="2023-02-08T10:50:20 IST" name="tearDown" finished-at="2023-02-08T10:50:20 IST" duration-ms="533" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:generalStore.ECommerceTest_01@12968227]" started-at="2023-02-13T11:58:27 IST" name="tearDown" finished-at="2023-02-13T11:58:28 IST" duration-ms="614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- generalStore.ECommerceTest_01 -->
       <class name="generalStore.ECommerceTest_02">
-        <test-method signature="sumOfcartProducts()[pri:0, instance:generalStore.ECommerceTest_02@4fa06f52]" started-at="2023-02-08T10:50:20 IST" name="sumOfcartProducts" finished-at="2023-02-08T10:50:55 IST" duration-ms="35006" status="PASS">
+        <test-method signature="sumOfcartProducts()[pri:0, instance:generalStore.ECommerceTest_02@131ff6fa]" started-at="2023-02-13T11:58:28 IST" name="sumOfcartProducts" finished-at="2023-02-13T11:59:03 IST" duration-ms="34929" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumOfcartProducts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:generalStore.ECommerceTest_02@4fa06f52]" started-at="2023-02-08T10:50:55 IST" name="tearDown" finished-at="2023-02-08T10:50:56 IST" duration-ms="436" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:generalStore.ECommerceTest_02@131ff6fa]" started-at="2023-02-13T11:59:03 IST" name="tearDown" finished-at="2023-02-13T11:59:03 IST" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- generalStore.ECommerceTest_02 -->
       <class name="excelConfigTest.ExcelTest">
-        <test-method signature="form(java.util.HashMap)[pri:0, instance:excelConfigTest.ExcelTest@66d57c1b]" started-at="2023-02-08T10:49:25 IST" name="form" data-provider="jsonProvider" finished-at="2023-02-08T10:49:25 IST" duration-ms="12" status="PASS">
+        <test-method signature="form(java.util.HashMap)[pri:0, instance:excelConfigTest.ExcelTest@341672e]" started-at="2023-02-13T11:57:16 IST" name="form" data-provider="jsonProvider" finished-at="2023-02-13T11:57:16 IST" duration-ms="41" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,7 +98,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- form -->
-        <test-method signature="form(java.util.HashMap)[pri:0, instance:excelConfigTest.ExcelTest@66d57c1b]" started-at="2023-02-08T10:49:25 IST" name="form" data-provider="jsonProvider" finished-at="2023-02-08T10:49:25 IST" duration-ms="1" status="PASS">
+        <test-method signature="form(java.util.HashMap)[pri:0, instance:excelConfigTest.ExcelTest@341672e]" started-at="2023-02-13T11:57:17 IST" name="form" data-provider="jsonProvider" finished-at="2023-02-13T11:57:17 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -109,7 +109,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- form -->
-        <test-method signature="form(java.util.HashMap)[pri:0, instance:excelConfigTest.ExcelTest@66d57c1b]" started-at="2023-02-08T10:49:25 IST" name="form" data-provider="jsonProvider" finished-at="2023-02-08T10:49:25 IST" duration-ms="0" status="PASS">
+        <test-method signature="form(java.util.HashMap)[pri:0, instance:excelConfigTest.ExcelTest@341672e]" started-at="2023-02-13T11:57:17 IST" name="form" data-provider="jsonProvider" finished-at="2023-02-13T11:57:17 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- form -->
-        <test-method signature="form(java.util.HashMap)[pri:0, instance:excelConfigTest.ExcelTest@66d57c1b]" started-at="2023-02-08T10:49:25 IST" name="form" data-provider="jsonProvider" finished-at="2023-02-08T10:49:25 IST" duration-ms="0" status="PASS">
+        <test-method signature="form(java.util.HashMap)[pri:0, instance:excelConfigTest.ExcelTest@341672e]" started-at="2023-02-13T11:57:17 IST" name="form" data-provider="jsonProvider" finished-at="2023-02-13T11:57:17 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -131,7 +131,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- form -->
-        <test-method signature="form(java.util.HashMap)[pri:0, instance:excelConfigTest.ExcelTest@66d57c1b]" started-at="2023-02-08T10:49:25 IST" name="form" data-provider="jsonProvider" finished-at="2023-02-08T10:49:25 IST" duration-ms="0" status="PASS">
+        <test-method signature="form(java.util.HashMap)[pri:0, instance:excelConfigTest.ExcelTest@341672e]" started-at="2023-02-13T11:57:17 IST" name="form" data-provider="jsonProvider" finished-at="2023-02-13T11:57:17 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,7 +142,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- form -->
-        <test-method signature="form(java.util.HashMap)[pri:0, instance:excelConfigTest.ExcelTest@66d57c1b]" started-at="2023-02-08T10:49:25 IST" name="form" data-provider="jsonProvider" finished-at="2023-02-08T10:49:25 IST" duration-ms="0" status="PASS">
+        <test-method signature="form(java.util.HashMap)[pri:0, instance:excelConfigTest.ExcelTest@341672e]" started-at="2023-02-13T11:57:17 IST" name="form" data-provider="jsonProvider" finished-at="2023-02-13T11:57:17 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -153,15 +153,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- form -->
-        <test-method signature="tc_01()[pri:0, instance:excelConfigTest.ExcelTest@66d57c1b]" started-at="2023-02-08T10:49:25 IST" name="tc_01" finished-at="2023-02-08T10:49:25 IST" duration-ms="1" status="PASS">
+        <test-method signature="tc_01()[pri:0, instance:excelConfigTest.ExcelTest@341672e]" started-at="2023-02-13T11:57:17 IST" name="tc_01" finished-at="2023-02-13T11:57:17 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_01 -->
-        <test-method signature="tc_03()[pri:0, instance:excelConfigTest.ExcelTest@66d57c1b]" started-at="2023-02-08T10:49:26 IST" name="tc_03" finished-at="2023-02-08T10:49:26 IST" duration-ms="0" status="PASS">
+        <test-method signature="tc_03()[pri:0, instance:excelConfigTest.ExcelTest@341672e]" started-at="2023-02-13T11:57:17 IST" name="tc_03" finished-at="2023-02-13T11:57:17 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_03 -->
-        <test-method signature="testData()[pri:0, instance:excelConfigTest.ExcelTest@66d57c1b]" started-at="2023-02-08T10:49:26 IST" name="testData" finished-at="2023-02-08T10:49:26 IST" duration-ms="10" status="PASS">
+        <test-method signature="testData()[pri:0, instance:excelConfigTest.ExcelTest@341672e]" started-at="2023-02-13T11:57:17 IST" name="testData" finished-at="2023-02-13T11:57:17 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testData -->
