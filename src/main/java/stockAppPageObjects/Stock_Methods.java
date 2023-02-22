@@ -65,11 +65,11 @@ public class Stock_Methods extends AndroidActions{
 		for(int i=1; i<=excel.getLastRowNum("stocks");i++) {
 			driver.findElement(By.xpath(excel.getData("stocks", i, 1))).click();
 			buttons.buyStock();
-			buttons.stockNumber("2");
+			buttons.stockNumber(StockConstants.BuySell_Num);
 			buttons.buyStock();
 			if(buttons.watchAd()) {
 				buttons.buyStock();
-				buttons.stockNumber("2");
+				buttons.stockNumber(StockConstants.BuySell_Num);
 				buttons.buyStock();
 			}
 			buttons.goBack();
@@ -82,11 +82,11 @@ public class Stock_Methods extends AndroidActions{
 		for(int i=1; i<=excel.getLastRowNum("stocks");i++) {
 			driver.findElement(By.xpath(excel.getData("stocks", i, 2))).click();
 			buttons.sellStock();
-			buttons.stockNumber("2");
+			buttons.stockNumber(StockConstants.BuySell_Num);
 			buttons.sellStock();
 			if(buttons.watchAd()) {
 				buttons.sellStock();
-				buttons.stockNumber("2");
+				buttons.stockNumber(StockConstants.BuySell_Num);
 				buttons.sellStock();
 			}
 			buttons.goBack();
